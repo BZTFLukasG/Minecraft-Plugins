@@ -1,0 +1,9 @@
+name: Plugin1
+version: ${project.version}
+main: ch.tudll.plugin1.Plugin1.Main
+api-version: 1.16
+authors: [ Tudll ]
+description: 1. Plugin
+commands:
+  timer:
+    permission: plugin1.command.timer
