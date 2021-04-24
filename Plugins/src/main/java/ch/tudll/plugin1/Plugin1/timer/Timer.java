@@ -1,6 +1,6 @@
 package ch.tudll.plugin1.Plugin1.timer;
-
 import ch.tudll.plugin1.Plugin1.Main;
+
 import ch.tudll.plugin1.Plugin1.utils.Config;
 import net.md_5.bungee.api.ChatMessageType;
 import net.md_5.bungee.api.chat.TextComponent;

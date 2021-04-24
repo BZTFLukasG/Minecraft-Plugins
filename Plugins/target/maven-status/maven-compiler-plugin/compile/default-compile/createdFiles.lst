@@ -1,0 +1,6 @@
+ch\tudll\plugin1\Plugin1\Main.class
+ch\tudll\plugin1\Plugin1\timer\Timer.class
+ch\tudll\plugin1\Plugin1\timer\Timer$1.class
+ch\tudll\plugin1\Plugin1\commands\TimerCommand.class
+ch\tudll\plugin1\Plugin1\listeners\QuitListener.class
+ch\tudll\plugin1\Plugin1\listeners\JoinListener.class

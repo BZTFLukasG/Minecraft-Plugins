@@ -9,7 +9,7 @@
     <version>1.0-SNAPSHOT</version>
     <packaging>jar</packaging>
 
-    <name>Plugin1</name>
+    <name>Plugin</name>
 
     <description>1. Plugin</description>
     <properties>

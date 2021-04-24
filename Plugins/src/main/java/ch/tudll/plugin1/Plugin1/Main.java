@@ -2,17 +2,16 @@ package ch.tudll.plugin1.Plugin1;
 
 
 import ch.tudll.plugin1.Plugin1.commands.TimerCommand;
+import ch.tudll.plugin1.Plugin1.listeners.JoinListener;
 import ch.tudll.plugin1.Plugin1.listeners.QuitListener;
 import ch.tudll.plugin1.Plugin1.timer.Timer;
 import ch.tudll.plugin1.Plugin1.utils.Config;
 import org.bukkit.Bukkit;
 import org.bukkit.plugin.PluginManager;
 import org.bukkit.plugin.java.JavaPlugin;
-import ch.tudll.plugin1.Plugin1.listeners.JoinListener;
 
 public final class Main extends JavaPlugin {
 
-    // Timer Video : 15:44
 
     private static Main instance;
 
