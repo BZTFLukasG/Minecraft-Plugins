@@ -1,5 +1,6 @@
 package ch.tudll.plugin1.Plugin1.listeners;
 
+import ch.tudll.plugin1.Plugin1.scoreboard.TestScoreboard;
 import org.bukkit.ChatColor;
 import org.bukkit.entity.Player;
 import org.bukkit.event.EventHandler;
@@ -17,6 +18,8 @@ public class JoinListener implements Listener {
 
         player.sendMessage(ChatColor.GOLD + " Willkommen auf dem Server");
 
+
+        new TestScoreboard(player);
     }
 
 }

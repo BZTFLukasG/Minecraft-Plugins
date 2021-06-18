@@ -1,8 +1,10 @@
 package ch.tudll.plugin1.Plugin1.backpack;
 
-import java.util.HashMap;
-import java.util.Map;
-import java.util.UUID;
+import ch.tudll.plugin1.Plugin1.Main;
+import ch.tudll.plugin1.Plugin1.utils.Config;
+
+import java.io.IOException;
+import java.util.*;
 
 public class BackpackManager {
 
@@ -12,9 +14,17 @@ public class BackpackManager {
         map = new HashMap<>();
     }
 
-    public Backpack getbackpack(UUID uuid) {
+    public Backpack getBackpack(UUID uuid) {
 
-        return map.getOrDefault(uuid, new Backpack(uuid));
+        if (map.containsKey(uuid)) {
+            return map.get(uuid);
+        }
+
+        Backpack backpack = new Backpack(uuid);
+
+        map.put(uuid, backpack);
+
+        return backpack;
     }
 
     public void setBackpack(UUID uuid, Backpack backpack) {
@@ -22,6 +32,34 @@ public class BackpackManager {
         map.put(uuid, backpack);
     }
 
+    public void load() {
+        Config config = Main.getInstance().getConfiguration();
 
+        List<String> uuids = config.getConfig().getStringList("backpacks");
+
+        uuids.forEach(s -> {
+            UUID uuid = UUID.fromString(s);
+
+            String base64 = config.getConfig().getString("backpack" + s);
+
+            try {
+                map.put(uuid, new Backpack(uuid,base64));
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
+        });
+    }
+
+    public void save() {
+        Config config = Main.getInstance().getConfiguration();
+
+        List<String> uuids = new ArrayList<>();
+
+        for (UUID uuid : map.keySet()) {
+            uuids.add(uuid.toString());
+        }
+        config.getConfig().set("backpacks", uuids);
+        map.forEach((uuid, backpack) -> config.getConfig().set("backpack." + uuid.toString(), backpack.toBasic64()));
+    }
 
 }

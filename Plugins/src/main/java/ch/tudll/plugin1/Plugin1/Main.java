@@ -1,6 +1,9 @@
 package ch.tudll.plugin1.Plugin1;
 
 
+import ch.tudll.plugin1.Plugin1.backpack.Backpack;
+import ch.tudll.plugin1.Plugin1.backpack.BackpackManager;
+import ch.tudll.plugin1.Plugin1.commands.BackpackCommand;
 import ch.tudll.plugin1.Plugin1.commands.TimerCommand;
 import ch.tudll.plugin1.Plugin1.listeners.JoinListener;
 import ch.tudll.plugin1.Plugin1.listeners.QuitListener;
@@ -17,6 +20,7 @@ public final class Main extends JavaPlugin {
 
     private Timer timer;
     private Config config;
+    private BackpackManager backpackManager;
 
     @Override
     public void onLoad() {
@@ -38,14 +42,18 @@ public final class Main extends JavaPlugin {
         manager.registerEvents(new QuitListener(), this);
 
         getCommand("timer").setExecutor(new TimerCommand());
+        getCommand("backpack").setExecutor(new BackpackCommand());
 
         timer = new Timer();
+        backpackManager = new BackpackManager();
     }
 
     @Override
     public void onDisable() {
         timer.save();
+        backpackManager.save();
         config.save();
+
     }
 
     public static Main getInstance()
@@ -56,5 +64,9 @@ public final class Main extends JavaPlugin {
     public Timer getTimer() {
 
         return timer;
+    }
+
+    public BackpackManager getBackpackManager() {
+        return backpackManager;
     }
 }
