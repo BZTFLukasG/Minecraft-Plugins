@@ -4,16 +4,26 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c58a064b-c5b5-49a0-bc6a-752ede47184b" name="Default Changelist" comment=" backpack weiter viedo 5:21">
-      <change afterPath="$PROJECT_DIR$/src/main/java/ch/tudll/plugin1/Plugin1/scoreboard/ScoreboardBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ch/tudll/plugin1/Plugin1/scoreboard/TestScoreboard.java" afterDir="false" />
+    <list default="true" id="c58a064b-c5b5-49a0-bc6a-752ede47184b" name="Default Changelist" comment="next animiert scoreboard">
+      <change afterPath="$PROJECT_DIR$/src/main/java/ch/tudll/plugin1/Plugin1/scoreboard/EntryName.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ch/tudll/plugin1/Plugin1/tablist/TablistManager.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ch/tudll/plugin1/Plugin1/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ch/tudll/plugin1/Plugin1/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ch/tudll/plugin1/Plugin1/backpack/Backpack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ch/tudll/plugin1/Plugin1/backpack/Backpack.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ch/tudll/plugin1/Plugin1/backpack/BackpackManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ch/tudll/plugin1/Plugin1/backpack/BackpackManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ch/tudll/plugin1/Plugin1/commands/BackpackCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ch/tudll/plugin1/Plugin1/commands/BackpackCommand.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ch/tudll/plugin1/Plugin1/listeners/JoinListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ch/tudll/plugin1/Plugin1/listeners/JoinListener.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/plugin.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/plugin.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ch/tudll/plugin1/Plugin1/scoreboard/ScoreboardBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ch/tudll/plugin1/Plugin1/scoreboard/ScoreboardBuilder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ch/tudll/plugin1/Plugin1/scoreboard/TestScoreboard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ch/tudll/plugin1/Plugin1/scoreboard/TestScoreboard.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ch/tudll/plugin1/Plugin1/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ch/tudll/plugin1/Plugin1/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ch/tudll/plugin1/Plugin1/commands/TimerCommand.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ch/tudll/plugin1/Plugin1/commands/TimerCommand.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ch/tudll/plugin1/Plugin1/listeners/JoinListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ch/tudll/plugin1/Plugin1/listeners/JoinListener.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ch/tudll/plugin1/Plugin1/listeners/QuitListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ch/tudll/plugin1/Plugin1/listeners/QuitListener.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ch/tudll/plugin1/Plugin1/timer/Timer$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ch/tudll/plugin1/Plugin1/timer/Timer$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ch/tudll/plugin1/Plugin1/timer/Timer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ch/tudll/plugin1/Plugin1/timer/Timer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/plugin.yml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/plugin.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/original-plugin1-1.0-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plugin1-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/plugin1-1.0-SNAPSHOT.jar" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,7 +68,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
@@ -117,7 +127,14 @@
       <option name="project" value="LOCAL" />
       <updated>1619785988455</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="next animiert scoreboard">
+      <created>1624019475746</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1624019475746</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -135,7 +152,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="anfang backpack" />
     <MESSAGE value=" backpack weiter viedo 5:21" />
-    <option name="LAST_COMMIT_MESSAGE" value=" backpack weiter viedo 5:21" />
+    <MESSAGE value="next animiert scoreboard" />
+    <option name="LAST_COMMIT_MESSAGE" value="next animiert scoreboard" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

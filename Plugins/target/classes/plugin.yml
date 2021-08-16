@@ -7,3 +7,5 @@ description: 1. Plugin
 commands:
   timer:
     permission: plugin1.command.timer
+  backpack:
+    aliases: [ bp ]
